@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+
+.content {
+  position: relative;
+  text-align: center;
+  top: 30%;
+}
+
+.pdf-list {
+  list-style: none;
+}
+
+.pdf-list li {
+  margin: 20px 0;
+}
+
+.pdf-list a {
+  color: rgb(48, 46, 115);
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.pdf-list a:hover {
+  text-decoration: underline;
+  color: rgb(15, 15, 15);
+  font-size: 1.6em;
+}
+
+.update-date {
+  color: rgb(15, 15, 15);
+  font-size: 0.8em;
+}
